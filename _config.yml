@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: David C King
 
 # Your name to show in the footer
-author: Some Person
+author: David C King
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -50,14 +50,14 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+#  email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+# facebook: deanattali
+github: meekrob
+# twitter: daattali
+# patreon: DeanAttali
+# youtube: "@daattali"
+# whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -74,12 +74,12 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
+ORCID: 0000-0003-1601-1612
+google-scholar: LFE5LmAAAAAJ
 #  discord: "invite_code" or "users/userid" or "invite/invite_code" 
 #  kaggle: yourname
 #  hackerrank: yourname
-#  gitlab: yourname
+gitlab: meekrob
 #  itchio: yourname
 #  untappd: yourname
 
