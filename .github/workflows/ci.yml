@@ -9,7 +9,16 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
+
+      - name: Cache Ruby gems
+        uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
       - name: Install dependencies
-        run: bundle install 
+        run: bundle config set path 'vendor/bundle' && bundle install --jobs 4 --retry 3
       - name: Build site
         run: bundle exec jekyll build --future
